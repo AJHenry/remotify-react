@@ -1,0 +1,24 @@
+{
+  "name": "remotify-react",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://ajhenry.github.io/remotify",
+  "dependencies": {
+    "firebase": "^5.0.4",
+    "gh-pages": "^1.1.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-google-button": "^0.5.3",
+    "react-scripts": "1.1.4",
+    "react-web-notification": "^0.3.2",
+    "reactstrap": "^6.0.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
