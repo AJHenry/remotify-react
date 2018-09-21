@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
-import {
-  Container,
-  Navbar,
-  NavbarBrand,
-  Nav,
-} from 'reactstrap';
+import { Container, Navbar, NavbarBrand, Nav } from 'reactstrap';
 
 class Header extends Component {
   constructor(props) {
@@ -18,9 +13,7 @@ class Header extends Component {
           <Navbar color="faded" light expand="md">
             <NavbarBrand href="/">Remotify</NavbarBrand>
             <Nav className="ml-auto" navbar>
-            <div>
-              {this.props.children}
-            </div>
+              <div>{this.props.children}</div>
             </Nav>
           </Navbar>
         </Container>

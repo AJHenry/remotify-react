@@ -26,14 +26,17 @@ npm start
 
 The react webserver should start then
 
-
 ## Running the tests
 
 Unit Tests coming soon
 
 ### Coding Style
 
-Please use the default formatter found in Android Studio
+We use Visual Studio Code with the [Prettier](https://prettier.io/) and [ESLint](https://eslint.org/) plugins
+
+We also have a dedicated ESLint and Prettier files to automatically conform to our coding styles
+
+There is a pre-hook that will format your documents after they are staged for commiting
 
 ## Deployment
 
@@ -41,7 +44,7 @@ Deploy on an Android phone running Lollipop 5.0 or higher
 
 ## Built With
 
-* [Firebase](https://firebase.google.com/) - Real-time database for storing notifications
+- [Firebase](https://firebase.google.com/) - Real-time database for storing notifications
 
 ## Contributing
 
@@ -53,12 +56,10 @@ We use [SemVer](http://semver.org/) for versioning
 
 ## Authors
 
-* **Andrew Henry** - *Initial work* - [AJHenry](https://github.com/AJHenry)
+- **Andrew Henry** - _Initial work_ - [AJHenry](https://github.com/AJHenry)
 
-See also the list of [contributors](https://github.com/remotify-react/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/AJHenry/remotify-react/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
